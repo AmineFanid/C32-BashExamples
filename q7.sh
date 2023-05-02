@@ -1,10 +1,13 @@
 #!/bin/bash
-#question 6 du lab bash
+#question 7 du lab bash
 
+menu(){
+    echo -n "Choix : "
+}
 
 while [[ $choix != q && $choix != Q ]]
 do
-    echo -n "Choix : "
+    menu
     read choix
     if [[ $choix = a || $choix = A ]]
     then
